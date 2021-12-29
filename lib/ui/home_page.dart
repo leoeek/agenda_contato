@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
           _showContactPage();
         },
         child: const Icon(Icons.add),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(10.0),

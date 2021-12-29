@@ -59,10 +59,10 @@ class _ContactPageState extends State<ContactPage> {
             }
           },
           child: const Icon(Icons.save),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.blue,
         ),
         body: SingleChildScrollView(
-          padding: EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(10.0),
           child: Column(
             children: <Widget>[
               GestureDetector(
